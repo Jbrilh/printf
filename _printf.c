@@ -3,11 +3,10 @@
 void print_buffer(char buffer[], int *buff_ind);
 
 /**
- * _printf - Printf function
+ * _printf - Printf function are gonna print everything
+ * @format: formating
  *
- * @format: format.
- *
- * Return: Printed expected chars.
+ * Return: Printed expected chars returned.
  */
 
 int _printf(const char *format, ...)
